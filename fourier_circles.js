@@ -11,7 +11,7 @@ function setup() {
   colorMode(RGB);
   textSize(15);
   translate(width / 2, height / 2);
-  slider = createSlider(0, 20, 4);
+  slider = createSlider(1, 20, 4);
   slider.position(30, 60);
   N = slider.value();
 
