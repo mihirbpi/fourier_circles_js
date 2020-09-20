@@ -29,7 +29,7 @@ function draw() {
   background(51);
   stroke(0, 155, 255);
   fill(0, 155, 255);
-  text("Slide to increase N", -550, -299);
+  text("Slide to change N", -550, -299);
   stroke(255, 0, 0);
 
   if (N != slider.value()){
